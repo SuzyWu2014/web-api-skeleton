@@ -4,5 +4,5 @@ package edu.oregonstate.mist.webapiskeleton.core
  * Sample representation class.
  */
 class Sample {
-    String message = 'hola mundo'
+    String message = 'hello world'
 }
