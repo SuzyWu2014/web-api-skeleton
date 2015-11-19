@@ -25,7 +25,7 @@ class SampleResource extends Resource {
     @Produces(MediaType.TEXT_PLAIN)
     public Response getMessage() {
         ResponseBuilder responseBuilder = ok(new Sample().message)
-        return responseBuilder.build()
+        responseBuilder.build()
     }
 
     /**
@@ -39,6 +39,6 @@ class SampleResource extends Resource {
     @Produces(MediaType.TEXT_PLAIN)
     public Response postMessage(String message) {
         ResponseBuilder responseBuilder = ok(message)
-        return responseBuilder.build()
+        responseBuilder.build()
     }
 }
